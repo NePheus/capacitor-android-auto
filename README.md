@@ -20,6 +20,13 @@ npm install capacitor-android-auto
 npx cap sync android
 ```
 
+Add this to the activity inside your AndroidManifest.xml:
+
+```
+android:showWhenLocked="true"
+android:turnScreenOn="true"
+```
+
 ## Usage
 
 ```javascript
