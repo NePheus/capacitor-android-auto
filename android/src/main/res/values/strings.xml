@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="intent_filter_action_android_auto_action">android.intent.action.capacitor.android_auto.action</string>
+</resources>
