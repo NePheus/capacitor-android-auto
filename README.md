@@ -35,9 +35,11 @@ import { AndroidAuto } from 'capacitor-android-auto';
 ...
 
 AndroidAuto.setTemplate({
-    template: new ListTemplate('My Features', [
-        { title: 'Feature 1', actionPayload: 'feature-1' },
-    ]),
+    template: {
+        type: TemplateEnum.List,
+        title: 'My Features',
+        items: [{ title: 'Feature 1', actionPayload: 'feature-1' }]
+    }
 });
 
 // Triggered when an android auto list entry was clicked
